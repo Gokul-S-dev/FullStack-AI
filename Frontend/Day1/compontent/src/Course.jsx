@@ -1,13 +1,13 @@
-const course1 = "HTML";
 
-function Course() {
+import HTML from '../assests/HTML.png'
+function Course(props) {
     return (
-        <>
-            <img src="" alt=""/>
-            <h2>{course1}</h2>
-            <p>This is an introductory course to {course1}.</p>   
+        <div className="card">
+            <img src={HTML} alt=""/>
+            <h2>{props.name}</h2>
+            <p>{props.price}.</p>   
 
-        </>
+        </div>
     )
 }
 

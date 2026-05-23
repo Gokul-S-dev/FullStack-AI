@@ -1,15 +1,16 @@
 
 import './App.css'
-import Navbar from './Navbar'
-import Course from './Course'
-import Footer from './Footer'
+import Course from './Course.jsx'
+
 function App() {
  
   return (
     <>
-      <Navbar />
-      <Course/>
-      <Footer/>
+      
+      <Course name="HTML" price="$100"/>
+      <Course name="CSS" price="$150"/>
+      <Course name="JavaScript" price="$200"/>
+
     </>
   )
 }
